@@ -1,0 +1,229 @@
+body {
+    height: 100vh;
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#navbar {
+    position: fixed;
+    height: 50px;
+    width: 96%;
+    background-color: black;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+}
+
+#particle-div {
+    height: 2000px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+#main-container {
+    position: absolute;
+    border: solid 1px transparent;
+    width: 100%;
+    height: cover;
+}
+#header {
+    height: 400px;
+    border: transparent 1px solid;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+.button-shop {
+    background-color: #000000; /* Green */
+    border: #000000;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button {
+    background-color: #000000; /* Green */
+    border: #000000;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button2 {
+    background-color: #ffffff; /* Green */
+    border: #000000 solid;
+    border-radius: 20px;
+    color: black;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#aboutshop {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 96%;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#shop {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 96%;
+    height: 2000px;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 30px;
+    text-align: center;
+}
+#products-container {
+    width: 85%;
+    height: 1800px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+    position: absolute;
+    border: solid 1px transparent;
+}
+.cardholder {
+    float: left;
+    width: 33%;
+    border: transparent 1px solid;
+}
+
+.card {
+    width: 80%;
+    margin-left: 10%;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#checkout {
+    position: fixed;
+    height: 65px;
+    width: 20%;
+    background-color: black;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    bottom: 5px;
+    left:1100px;
+}
+#checkoutpop {
+    position: fixed;
+    height: 700px;
+    width: 75%;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    bottom: 5px;
+    left:300px;
+}
+.cart {
+    border: solid transparent;
+}
+
+/* Cart */
+.products-cartcontainer {
+    margin-top: 50px;
+    margin-left: 50px;
+    max-width: 1000px;
+    height: 530px;
+    overflow-y: auto;
+    border: transparent solid 1px;
+    justify-content: space-around;
+}
+
+.products-cartcontainer ion-icon {
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-header {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+}
+.product-title{
+    width: 45%;
+
+}
+.price {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+}
+.quantity {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    width: 100%;
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+.remove-button {
+    background-color: #000000; /* Green */
+    border: #000000;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+.basketTotalTitle {
+    width: 30%;
+}
+.basketTotal {
+    width: 10%;
+}
